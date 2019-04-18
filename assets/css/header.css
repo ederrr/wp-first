@@ -1,0 +1,114 @@
+header {
+	position: relative;
+	width: 100%;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.27);
+}
+
+@media only screen and (max-width: 767px) {
+	header {
+		height: 31px;
+		background-color: #006fb7;
+	}
+}
+@media only screen and (min-width: 768px) {
+	header {
+		height: 80px;
+		background-color: #fff;
+	}
+}
+
+header #nav-logo {
+	box-sizing: border-box;
+	position: relative;
+	left: 7%;
+	top: 0;
+	width: 152px;
+	padding: 1.2%;
+	background-color: white;
+	box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.16);
+}
+
+@media only screen and (max-width: 767px) {
+	header #nav-logo {
+		width: 25%;
+	}
+
+}
+
+@media only screen and (min-width: 768px) {
+	header #nav-logo {
+		width: 9%;
+	}
+}
+
+header #nav-logo img{
+	max-width: 100%;
+	height: auto;
+}
+
+header #nav-menu {
+	position: absolute;
+	display: flex;
+	right: 7%;
+	top: 50%;
+	transform: translate(0,-50%);
+	
+}
+
+@media only screen and (max-width: 767px) {
+
+	header #nav-menu{
+		width: 20%;
+		justify-content: space-between;
+	}
+	header #nav-menu .icons {
+		width: 17px;
+		height: 17px;
+		display: inline-flex;
+	}
+	header #nav-menu nav {
+		display: none;
+	}
+	header #nav-menu input{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 768px) {
+
+	header #nav-menu{
+		width: 50%;
+	}
+	header #nav-menu .icons {
+		display: none;
+	}
+	header #nav-menu .menu-menu-principal-container {
+		width: 100%;
+	}
+	header #nav-menu nav{
+		display: inline-flex;
+		width: 100%;
+	}
+	header #nav-menu ul {
+		padding: 0;
+		display: inline-flex;
+		width: 100%;
+		justify-content: space-between;
+	}
+	header #nav-menu li {
+		display: inline-flex;
+	}
+	header #nav-menu li a {
+		text-decoration: none;
+		font-weight: bold;
+		text-transform: uppercase;
+		color: #006fb7;
+	}
+	header #nav-menu .current-menu-item a{
+		color: #97be0d;
+	}
+	header #nav-menu input{
+		display: inline-flex;
+	}
+}
+

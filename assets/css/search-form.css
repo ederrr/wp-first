@@ -1,0 +1,35 @@
+#search-form {
+	display: inline-flex;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	border: solid 1px #707070;
+	width: 25%;
+	height: 37px;
+	border-radius: 3px;
+	background-color: white;
+	padding: 1px;
+	margin-left: 8%;
+}
+
+#search-form input {
+	border: none;
+	width: 80%;
+	line-height: 100%;
+	padding-left: 10px;
+}
+
+#search-form input::placeholder {
+	color: #a5a3a3;
+	font-size: 1rem;
+	font-style: italic;
+  }
+
+#search-form img{
+	position: relative;
+	width: 14px;
+	height: 14px;
+	color: #707070;
+	top: 50%;
+	transform: translate(50%,-50%);
+}
