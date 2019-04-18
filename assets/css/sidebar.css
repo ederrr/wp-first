@@ -1,0 +1,36 @@
+
+/*-------------------Newsletter------------------*/
+
+.newsletter{
+	display: flex;
+	flex-direction: column;
+	background-color: #006fb7;
+	border-radius: 3px;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10% 5%;
+}
+.newsletter p{
+	color: white;
+}
+.newsletter input{
+	box-sizing: border-box;
+	border: none;
+	display: block;
+	width: 80%;
+	height: 40px;
+	padding-left: 15px;
+}
+.newsletter input::placeholder {
+	color: #585858;
+}
+.newsletter button{
+	border: none;
+	background-color: #97be0d;
+	color: white;
+	display: block;
+	width: 80%;
+	height: 40px;
+	border-radius: 3px;
+	margin-top: 18px;
+}

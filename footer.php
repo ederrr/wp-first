@@ -1,5 +1,5 @@
 <footer>
-<div id="footer-logo-top">
+<div id="footer-logo">
 	<img src="<?php echo get_template_directory_uri().'/assets/images/icons_logo@3x.png' ?>" alt="logo do de heus">
 </div>
 <div id="footer-info">
@@ -34,9 +34,6 @@ foreach ($cats as $cat) {?>
 	<img src="<?php echo get_template_directory_uri().'/assets/images/youtube(2)@3x.png' ?>" alt="youtube">
 </div>
 <div id="footer-bar">
-	<div id="footer-logo-bottom">
-		<img src="<?php echo get_template_directory_uri().'/assets/images/icons_logo@3x.png' ?>" alt="logo do de heus">
-	</div>
 	<p>&copy; <?php the_time('Y') ?> DE HEUS.<span> TODOS OS DIREITOS RESERVADOS </span></p>
 	<div id="footer-icons-share">
 		<img src="<?php echo get_template_directory_uri().'/assets/images/facebook-logo@3x.png' ?>" alt="facebook">

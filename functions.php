@@ -3,6 +3,7 @@
 	function deheustheme_setup_theme(){
 		wp_enqueue_style('footer-style', get_template_directory_uri().'/assets/css/footer.css');
 		wp_enqueue_style('serchform-style', get_template_directory_uri().'/assets/css/search-form.css');
+		wp_enqueue_style('sidebar-style', get_template_directory_uri().'/assets/css/sidebar.css');
 		wp_enqueue_style('header-style', get_template_directory_uri().'/assets/css/header.css');
 		wp_enqueue_style('reset-style', get_template_directory_uri().'/assets/css/reset.css');
 

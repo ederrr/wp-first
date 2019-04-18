@@ -1,3 +1,4 @@
+
 footer {
 	display: flex;
 	position: relative;
@@ -5,9 +6,9 @@ footer {
 	flex-wrap: wrap;
 }
 
-footer #footer-logo-top, footer #footer-logo-bottom {
+footer #footer-logo {
 	box-sizing: border-box;
-	position: relative;
+	position: absolute;
 	left: 7%;
 	width: 152px;
 	padding: 1.2%;
@@ -16,26 +17,20 @@ footer #footer-logo-top, footer #footer-logo-bottom {
 }
 
 @media only screen and (max-width: 767px) {
-	footer #footer-logo-top {
+	footer #footer-logo {
 		width: 25%;
 		bottom: 0;
-	}
-	footer #footer-logo-bottom {
-		display: none;
 	}
 }
 
 @media only screen and (min-width: 768px) {
-	footer #footer-logo-top {
-		display: none;
-	}
-	footer #footer-logo-bottom {
+	footer #footer-logo {
 		width: 9%;
 		top: 0;
 	}
 }
 
-footer #footer-logo-top img, footer #footer-logo-bottom img{
+footer #footer-logo img{
 	max-width: 100%;
 	height: auto;
 }
@@ -161,7 +156,7 @@ footer .footer-category a {
 	}
 	footer #footer-categories {
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 		padding-left: 3%;
 		order: 1;
 	}
