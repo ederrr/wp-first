@@ -1,3 +1,11 @@
+aside {
+	padding: 0 3%;
+}
+
+aside h2 {
+	color: #006fb7;
+	font-size: 1.75;
+}
 
 /*-------------------Newsletter------------------*/
 
@@ -33,4 +41,38 @@
 	height: 40px;
 	border-radius: 3px;
 	margin-top: 18px;
+}
+
+/*-------------------Popular Articles------------------*/
+
+.popular-articles {
+	display: flex;
+	margin-bottom: 30px;
+}
+.popular-image {
+	width: 45%;
+}
+.popular-image img {
+	width: 100%;
+	height: auto;
+}
+.popular-description {
+	display: flex;
+	width: 55%;
+	padding: 0 4%;
+	align-items: center;
+}
+.popular-description p {
+	color: #585858;
+	font-size: 0.75rem;
+}
+
+/*-------------------Desktop version------------------*/
+
+@media only screen and (min-width: 768px) {
+	aside {
+		width: 28%;
+		margin: 0;
+		padding: 0;
+	}
 }

@@ -1,0 +1,39 @@
+.error-subject {
+	font-size: 1;
+	color: #585858;
+	text-align: center;
+}
+
+.error-subject::before {
+	content: '';
+	background: url('../../assets/images/cancel@3x.png') no-repeat;
+	background-size: auto 100%;
+	width: 60px;
+	height: 60px;
+	display: block;
+	margin: 0 auto 40px auto;
+}
+
+
+@media only screen and (min-width: 768px) {
+	.error-content {
+		display: block;
+		position: absolute;
+		border: dashed 1px gray;
+		left: 50%;
+		top: 50%;
+		transform: translate(-50%, -80%);
+	}
+	.footer-to-bottom{
+		position: absolute;
+		width: 100%;
+		bottom: 0;
+	}
+	.error-subject {
+		font-size: 1.25rem;
+	}
+	.error-subject::before {
+		width: 98px;
+		height: 98px;
+	}
+}

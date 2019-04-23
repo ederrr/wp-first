@@ -1,0 +1,21 @@
+.page-subject {
+	font-size: 1.875rem;
+	color: #006fb7;
+}
+.search-subject {
+	font-size: 1.125rem;
+	color: #585858;
+}
+
+.search-subject span{
+	color: #006fb7;
+}
+
+@media only screen and (min-width: 768px) {
+	.page-subject {
+		font-size: 3rem;
+	}
+	.search-subject {
+		font-size: 1.5rem;
+	}
+}

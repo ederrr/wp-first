@@ -1,0 +1,64 @@
+.container {
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0 4%;
+	margin-top: 100px;
+}
+.buttons-pagination {
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	margin: 20px 0;
+}
+.navigation-posts a{
+	text-decoration: none;
+	color: #006fb7;
+	font-size: 0.75rem;
+	line-height: 15px;
+	vertical-align: top;
+}
+.next-posts {
+	justify-self: flex-start;
+	flex: 1;
+}
+.before-posts {
+	justify-self: flex-end;
+	flex: 1;
+
+}
+.next-posts a::before {
+	content: '';
+	background: url('../../assets/images/icons_rightArrow_blue_2@3x.png');
+	background-size: 15px 15px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: 0 15px;
+}
+
+.previous-posts a::after {
+	content: '';
+	background: url('../../assets/images/icons_rightArrow_blue@3x.png');
+	background-size: 15px 15px;
+	display: inline-block;
+	width: 15px;
+	height: 15px;
+	margin: 0 15px;
+}
+
+/*-------------------Desktop version------------------*/
+
+@media only screen and (min-width: 768px) {
+
+	.container {
+		display: flex;
+		padding: 0 7%;
+	}
+	section {
+		margin-right: 60px;
+		width: calc(72% - 60px);
+	}
+	.buttons-pagination {
+		margin: 40px 0;
+	}
+}

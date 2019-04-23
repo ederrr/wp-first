@@ -1,0 +1,89 @@
+/*-------------------Post Articles------------------*/
+
+.post-icon {
+	display: flex;
+	flex-direction: column;
+	margin-top: 5px;
+}
+.post-image {
+	width: 100%;
+}
+.post-image img {
+	width: 100%;
+	height: 168px;
+}
+.post-description {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+.post-description h3 a{
+	text-decoration: none;
+	color: #006fb7;
+}
+.post-description h3{
+	color: #006fb7;
+	font-size: 1rem;
+}
+.post-description p a{
+	text-decoration: none;
+	color: #585858;
+}
+.post-description p{
+	font-size: 0.75rem;
+	margin: 5px 0;
+}
+.post-description small {
+	color: #585858;
+	font-size: 0.75rem;
+}
+.post-tag a {
+	color: #006fb7;
+	text-decoration: none;
+}
+hr {
+	margin: 20px 0;
+}
+
+/*-------------------Desktop version------------------*/
+
+@media only screen and (min-width: 768px) {
+
+	.post-icon {
+		display: flex;
+		flex-direction: row;
+	}
+	.post-image {
+		width: 30%;
+	}
+	.post-image img {
+		width: 100%;
+		height: auto;
+	}
+	.post-description {
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+		margin-left: 35px;
+	}
+	.post-description h3 {
+		color: #006fb7;
+		font-size: 1.5rem;
+	}
+	.post-description p {
+		color: #585858;
+		font-size: 1.25rem;
+		margin: 5px 0;
+	}
+	.post-description small {
+		color: #585858;
+		font-size: 1.25rem;
+	}
+	.post-tag a {
+		color: #006fb7;
+		text-decoration: none;
+	}
+	hr {
+		margin: 35px 0;
+	}
+}
