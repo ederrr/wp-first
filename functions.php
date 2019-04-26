@@ -1,6 +1,7 @@
 <?php
 
 	function deheustheme_setup_theme(){
+		wp_enqueue_style('single-style', get_template_directory_uri().'/assets/css/single.css');
 		wp_enqueue_style('slide-style', get_template_directory_uri().'/assets/css/slide.css');
 		wp_enqueue_style('404-style', get_template_directory_uri().'/assets/css/404.css');
 		wp_enqueue_style('general-style', get_template_directory_uri().'/assets/css/general.css');
@@ -28,7 +29,7 @@
 	}
 
 	function custom_excerpt_length( $length ) {
-		return 15;
+		return 25;
 	}
 
 
